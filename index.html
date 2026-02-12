@@ -15,23 +15,23 @@
 
     :root { --white: hsl(0, 0%, 100%); --slate-300: hsl(212, 45%, 89%); --slate-500: hsl(216, 15%, 48%); --slate-900: hsl(218, 44%, 22%); }
     body { min-height: 100vh; display: flex;  justify-content: center; align-items: center; background-color: var(--slate-300); }
-    .card { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 16px; max-width: 30vh; border-radius: 15px; background-color: var(--white); }
+    main { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 16px; max-width: 30vh; border-radius: 15px; background-color: var(--white); }
     img { max-height: 30vh; border-radius: 10px; }
-    p.first { color: var(--slate-900); font-size: 17px; text-align: center; margin-bottom: 8px; }
-    p.second { color: var(--slate-500); font-size: 12px; text-align: center; margin-top: 0; }
+    h1 { color: var(--slate-900); font-size: 17px; text-align: center; margin-bottom: 8px; }
+    p { color: var(--slate-500); font-size: 12px; text-align: center; margin-top: 0; }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <img src="images/image-qr-code.png">
-    <p class="first">
-    <strong>Improve your front-end skills by building projects</strong>
-    </p>
-    <p class="second">
+  <main>
+    <img src="images/image-qr-code.png" alt="QR Code to Frontend Mentor">
+    <h1>
+    Improve your front-end skills by building projects
+    </h1>
+    <p>
     Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </p>
-  </div>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
